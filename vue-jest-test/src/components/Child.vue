@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>{{message}}</h3>
-    <button @click="changeText">클릭</button>
+    <button class="click-btn" @click="changeText">클릭</button>
   </div>
 </template>
 
