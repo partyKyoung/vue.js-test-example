@@ -14,6 +14,6 @@ describe("App.vue", () => {
 
     button.trigger("click");
 
-    expect(wrap.find("h3").text()).toEqual("얍얍"); // Child
+    expect(wrap.find("h3").text()).toEqual("123"); // Child
   });
 });
