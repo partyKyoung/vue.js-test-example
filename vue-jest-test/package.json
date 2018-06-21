@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "gulp": "gulp",
     "start": "webpack-dev-server --mode development"
   },
   "author": "",
@@ -16,6 +17,8 @@
     "babel-env": "^2.4.1",
     "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.4",
+    "gulp": "^3.9.1",
+    "gulp-jest": "^4.0.2",
     "jest": "^23.1.0",
     "vue-jest": "^2.6.0",
     "vue-loader": "^15.2.4",

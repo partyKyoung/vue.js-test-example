@@ -9,7 +9,7 @@ describe("test", () => {
   it("event", () => {
     const button = component.find("button")[0];
 
-    button.dispatch("click");
+    button.trigger("click");
 
     // assert that component text contains items from the list
     expect(component.find("h3")[0].text()).to.equals("sibal");
